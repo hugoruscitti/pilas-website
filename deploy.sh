@@ -21,6 +21,6 @@ git add .
 git commit -am "Update."
 git push origin gh-pages
 git checkout master
-mv ../node_modules_tmp ../node_modules
-mv ../bower_components_tmp ../bower_components
+mv ../node_modules_tmp node_modules
+mv ../bower_components_tmp bower_components
 git pull
