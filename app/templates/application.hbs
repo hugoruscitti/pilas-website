@@ -1,3 +1,59 @@
-<h2 id="title">pilas-engine</h2>
+<div class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
 
-{{outlet}}
+        <div class="navbar-header">
+          {{#link-to "index" class="navbar-brand"}}pilas-engine{{/link-to}}
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+
+        <div class="navbar-collapse collapse" id="navbar-main">
+          <ul class="nav navbar-nav">
+
+            {{#link-to "index" tagName='li'}}<a href="">Principal</a>{{/link-to}}
+            {{#link-to "blog" tagName='li'}}<a href="">Noticias</a>{{/link-to}}
+
+            {{#link-to "foro" tagName='li'}}<a href="">Foro</a>{{/link-to}}
+            {{#link-to "descargas" tagName='li'}}<a href="">Descargas</a>{{/link-to}}
+
+            {{#link-to "docs" tagName='li'}}<a href="">Docs</a>{{/link-to}}
+            {{#link-to "galeria" tagName='li'}}<a href="">Galeria</a>{{/link-to}}
+            {{#link-to "videos" tagName='li'}}<a href="">Videos</a>{{/link-to}}
+
+          </ul>
+        </div>
+      </div>
+    </div>
+
+<div class="container"  id='top'>
+  <div class="bs-docs-section clearfix">
+        <div class="row">
+
+          <div class="col-lg-12">
+
+
+            {{outlet}}
+
+          </div>
+        </div>
+      </div>
+
+  <footer>
+    <div class="row">
+      <div class="col-lg-12">
+
+        <ul class="list-unstyled">
+          <!--
+          <li class="pull-right"><a>Subir</a></li>
+          -->
+          <li><a href="https://github.com/hugoruscitti/pilas/" target="_new">GitHub</a></li>
+        </ul>
+
+      </div>
+    </div>
+  </footer>
+
+</div>
