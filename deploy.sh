@@ -10,12 +10,16 @@ ember build --environment production
 
 git checkout gh-pages
 git pull origin gh-pages
+mv node_modules ../node_modules_tmp
+mv bower_components ../bower_components_tmp
 ls -1 | grep -v -E '^dist$' | xargs rm -rf
 mv dist/* ./
-mv dist/.* ./
 rmdir dist
 
+git add .
 git commit -am "Update."
-git push
+git push origin gh-pages
 git checkout master
+mv ../node_modules_tmp ../node_modules
+mv ../bower_components_tmp ../bower_components
 git pull

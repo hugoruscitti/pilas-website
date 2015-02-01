@@ -40,7 +40,7 @@ module.exports = function(environment) {
   }
 
   if (environment === 'production') {
-    ENV.rootURL = '/pilas-website-test/';
+    ENV.baseURL = '/pilas-website-test/';
   }
 
   return ENV;
