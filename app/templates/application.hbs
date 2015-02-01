@@ -2,7 +2,7 @@
       <div class="container">
 
         <div class="navbar-header">
-          {{#link-to "index" class="navbar-brand"}}pilas-engine{{/link-to}}
+          <a href='/' class="navbar-brand">pilas-engine</a>
           <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -13,10 +13,10 @@
         <div class="navbar-collapse collapse" id="navbar-main">
           <ul class="nav navbar-nav">
 
-            {{#link-to "index" tagName='li'}}<a href="">Principal</a>{{/link-to}}
-            {{#link-to "blog" tagName='li'}}<a href="">Noticias</a>{{/link-to}}
+            {{#link-to "index" tagName='li' href=false}}<a href=#>Principal</a>{{/link-to}}
+            {{#link-to "blog" tagName='li' href=false}}<a href=#>Noticias</a>{{/link-to}}
 
-            {{#link-to "foro" tagName='li'}}<a href="">Foro</a>{{/link-to}}
+            {{#link-to "foro" tagName='li' href=false}}<a href="">Foro</a>{{/link-to}}
             {{#link-to "descargas" tagName='li'}}<a href="">Descargas</a>{{/link-to}}
 
             {{#link-to "docs" tagName='li'}}<a href="">Docs</a>{{/link-to}}
@@ -34,7 +34,6 @@
 
           <div class="col-lg-12">
 
-
             {{outlet}}
 
           </div>
@@ -42,18 +41,27 @@
       </div>
 
   <footer>
-    <div class="row">
+    <div class="row center">
       <div class="col-lg-12">
 
-        <ul class="list-unstyled">
+        <a href="#" class="logo_footer"><span class="hide">pilas engine</span></a>
+
+            <div class='copyright'>&copy; Hugo Ruscitti</div>
+
+
+          <div id='github-footer'>
+            <div id="github-star"><iframe src="http://ghbtns.com/github-btn.html?user=hugoruscitti&repo=pilas&type=watch&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="110" height="20"></iframe></div>
+            <div id="github-fork"><iframe src="http://ghbtns.com/github-btn.html?user=hugoruscitti&repo=pilas&type=fork&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="95" height="20"></iframe></div>
+          </div>
+
           <!--
-          <li class="pull-right"><a>Subir</a></li>
-          -->
-          <li><a href="https://github.com/hugoruscitti/pilas/" target="_new">GitHub</a></li>
-        </ul>
+          <div style="margin: 10px;">Con el respaldo de <a target="_blank" href="http://www.conectarigualdad.gob.ar">Conectar Igualdad</a></div>
+        -->
+
 
       </div>
     </div>
+
   </footer>
 
 </div>
