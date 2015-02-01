@@ -1,3 +1,13 @@
+all:
+	@echo "Comandos disponibles:"
+	@echo ""
+	@echo "   preview    Muestra el sitio de forma local."
+	@echo "   deploy     Sube el sitio completo a la web."
+	@echo ""
+	
+preview:
+	ember serve
+
 deploy:
 	ember build --environment production
 	cp -r -f dist/* ../ghpages__pilas-website-test/
