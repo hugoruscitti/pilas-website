@@ -62,3 +62,16 @@ footer {
 .active {
   background-color: rgb(228, 224, 224);
 }
+
+.miembro-contenedor {
+  text-align: center;
+}
+
+.miembro-nombre {
+  font-weight: bold;
+  font-size: large;
+}
+
+.miembro-descripcion {
+  font-size: small;
+}
