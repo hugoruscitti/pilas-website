@@ -12,6 +12,7 @@ Router.map(function() {
   this.route("videos");
   this.route("docs");
   this.route("descargas");
+  this.route("acercade");
 });
 
 export default Router;
