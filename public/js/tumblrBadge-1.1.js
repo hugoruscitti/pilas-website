@@ -16,6 +16,7 @@ var tumblrBadge = function () {
 		var badgeJSON = document.createElement("script");
 		badgeJSON.type = "text/javascript";
 		badgeJSON.src = "http://" + settings.userName + ".tumblr.com/api/read/json?callback=tumblrBadge().listItems&num=" + settings.itemsToShow;
+		alert(badgeJSON.src);
 		head.appendChild(badgeJSON);
 
 		var wait = setTimeout(function () {
