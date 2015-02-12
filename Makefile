@@ -1,8 +1,12 @@
+N=[0m
+V=[01;32m
+
 all:
 	@echo "Comandos disponibles:"
 	@echo ""
-	@echo "   preview    Muestra el sitio de forma local."
-	@echo "   deploy     Sube el sitio completo a la web."
+	@echo "   $(V)iniciar $(N)  Instala todas las dependencias."
+	@echo "   $(V)preview $(N)  Muestra el sitio de forma local."
+	@echo "   $(V)deploy  $(N)  Sube el sitio completo a la web."
 	@echo ""
 	
 preview:
@@ -19,3 +23,7 @@ deploy:
 	@echo ""
 	@echo " * Subiendo los cambios a: http://hugoruscitti.github.io/pilas-website-test "
 	@echo ""
+
+iniciar:
+	npm install
+	bower install
