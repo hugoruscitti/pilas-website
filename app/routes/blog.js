@@ -3,8 +3,8 @@ import Ember from 'ember';
 
 export default Ember.Route.extend({
   model: function() {
-    var url = "http://api.tumblr.com/v2/blog/pilas-engine.tumblr.com/posts?api_key=fuiKNFp9vQFvjLNvx4sUwti4Yb5yGutBN4Xh10LXZhhRKjWlV4&limit=5";
+    var url = "http://pilas-engine.tumblr.com/api/read/json?callback=c&num=5";
 
-    return $.getJSON(url).then(function(response) {return response;});
+    return Ember.$.getJSON(url).then(function(response) {console.log(response); return response;});
   }
 });
