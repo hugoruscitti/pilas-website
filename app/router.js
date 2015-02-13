@@ -13,6 +13,7 @@ Router.map(function() {
   this.route("docs");
   this.route("descargas");
   this.route("acercade");
+  this.route("photo-modal");
 });
 
 export default Router;

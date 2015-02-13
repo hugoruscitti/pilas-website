@@ -1,11 +1,14 @@
+
+
 <div class="page-header center">
   <h1>Galería de imágenes</h1>
 </div>
 
 <div class="bs-component">
-  <div class='row'>
 
-    <div class="col-lg-12">
-    </div>
-  </div>
+  {{#photo-coleccion titulo='Ejemplos' model=photosEjemplos}}{{/photo-coleccion}}
+  {{#photo-coleccion titulo='Equipos' model=photosEquipos}}{{/photo-coleccion}}
+  {{#photo-coleccion titulo='Eventos' model=photosEventos}}{{/photo-coleccion}}
+  {{#photo-coleccion titulo='Sistemas' model=photosSistemas}}{{/photo-coleccion}}
+
 </div>

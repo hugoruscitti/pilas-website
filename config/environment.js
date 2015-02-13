@@ -19,13 +19,26 @@ module.exports = function(environment) {
     }
   };
 
+  ENV.imgManager = {
+    maxTries: 1,
+    delay: 10,
+    batchSize: 5,
+    lazyLoad: true,
+    loadingSrc: 'images/cargando.png',
+    errorSrc: 'images/error.png',
+    loadingClass: 'loading',
+    successClass: 'success',
+    errorClass: 'error'
+  };
+
   ENV.contentSecurityPolicy = {
     "default-src": "*",
     'script-src': "*",
     'font-src': "'self' http://fonts.gstatic.com",
     'connect-src': "'self' *",
     'style-src': "'self' 'unsafe-inline' http://fonts.googleapis.com",
-    'report-uri': '*'
+    'report-uri': '*',
+    'img-src': '*'
   };
 
   if (environment === 'development') {
