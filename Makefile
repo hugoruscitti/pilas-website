@@ -37,4 +37,3 @@ blog:
 
 photos:
 	node extras/actualizar_photos.js
-
