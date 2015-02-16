@@ -138,3 +138,18 @@ img {
 table.tutoriales td {
   padding: 10px;
 }
+
+
+modal-container {
+  background-color: hsla(0, 0%, 0%, 0.52) !important;
+}
+
+modal-container[is-open] {
+  z-index: 10;
+}
+
+
+modal-main {
+  top: 50px;
+  bottom: 50px;
+}

@@ -15,10 +15,4 @@ export default Ember.Controller.extend({
     return window.photos_sistemas.feed.entry;
   }.property(),
 
-  actions: {
-    visualizar: function(foto) {
-      console.log(foto);
-      alert("no implementado aun");
-    },
-  }
 });
