@@ -110,3 +110,31 @@ a {
 .imagen {
   margin: 5px;
 }
+
+
+ul#descargas {
+    margin: 0em;
+    padding: 2em;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+    ul#descargas li {
+        margin-left: 1em;
+        margin-right: 1em;
+        margin-bottom: 7px;
+        display: inline-block;
+        height: 50px;
+        vertical-align: top;
+    }
+
+
+img {
+  max-width: 100%;
+}
+
+
+table.tutoriales td {
+  padding: 10px;
+}
