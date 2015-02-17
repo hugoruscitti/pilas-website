@@ -42,3 +42,4 @@ photos:
 
 release:
 	@python extras/obtener_links.py
+
