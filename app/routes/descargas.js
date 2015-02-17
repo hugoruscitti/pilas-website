@@ -3,11 +3,11 @@ import Ember from 'ember';
 export default Ember.Route.extend({
   model: function() {
     return {
-      version: "0.90.10",
-      fecha: "Marzo del 2015",
-      link_windows: "https://www.dropbox.com/s/wxrnwmzc99rs3eq/pilas-engine_0.90.24.exe?dl=0",
-      link_mac: "https://www.dropbox.com/s/2zvuvnhe8ojqbm1/pilas-engine-0.90.24.dmg?dl=0",
-      link_deb: "http://repo.huayra.conectarigualdad.gob.ar/huayra/pool/main/p/python-pilas/python-pilas_0.90.23_all.deb",
+      version: "0.90.25",
+      fecha: "2015-02-16",
+      link_windows: "https://dl.dropboxusercontent.com/u/1335422/releases/pilas-engine/0.90.25/pilas-engine-0.90.25.dmg",
+      link_mac: "https://dl.dropboxusercontent.com/u/1335422/releases/pilas-engine/0.90.25/pilas-engine_0.90.25.exe",
+      link_deb: "http://repo.huayra.conectarigualdad.gob.ar/huayra/pool/main/p/python-pilas/python-pilas_0.90.25_all.deb",
     };
   }
 });
