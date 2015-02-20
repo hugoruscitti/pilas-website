@@ -19,6 +19,7 @@ rmdir dist
 
 git add .
 git commit -am "Update."
+git pull origin gh-pages
 git push origin gh-pages
 git checkout master
 mv ../node_modules_tmp node_modules
