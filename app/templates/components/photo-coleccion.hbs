@@ -5,9 +5,11 @@
 
   <div class="col-lg-12">
     {{#each m in model}}
+     <div class='contenedor-img'>
       <a {{action "visualizar" m.media$group.media$content.0.url}}>
         {{img-wrap class='imagen' src=m.media$group.media$thumbnail.0.url alt="Landscape"}}
       </a>
+     </div>
     {{/each}}
   </div>
 </div>

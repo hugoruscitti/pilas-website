@@ -65,5 +65,16 @@ module.exports = function(environment) {
     ENV.baseURL = '/pilas-website-test/';
   }
 
+// all settings are optionals
+ENV.imgManager = {
+  maxTries: 1,
+  delay: 100,
+  batchSize: 0,
+  lazyLoad: true,
+  loadingClass: 'loader',
+  successClass: 'success',
+  errorClass: 'error'
+};
+
   return ENV;
 };
