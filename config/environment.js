@@ -68,7 +68,7 @@ module.exports = function(environment) {
 // all settings are optionals
 ENV.imgManager = {
   maxTries: 1,
-  delay: 100,
+  delay: 2000,
   batchSize: 0,
   lazyLoad: true,
   loadingClass: 'loader',
