@@ -17,6 +17,7 @@ preview:
 	ember serve
 
 deploy:
+	echo "\n" >> README.md
 	git add .
 	git commit -m "actualizacion..."
 	git push
