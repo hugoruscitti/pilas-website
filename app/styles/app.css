@@ -30,12 +30,6 @@ footer {
   margin-top: 100px;
 }
 
-.logo_footer {
-  display: inline-block;
-  background: transparent url(../images/logo-pilas-footer.png) no-repeat;
-  width: 119px;
-  height: 21px;
-}
 
 .copyright {
   text-align: center;
