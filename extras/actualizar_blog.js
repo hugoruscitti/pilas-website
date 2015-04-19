@@ -15,16 +15,23 @@ http.get(url, function(res) {
 
       body = body.replace(/\);/g, '');
 
-
-
       var fbResponse = JSON.parse(body)
+
+
       var data = JSON.stringify(fbResponse, null, 4);
 
       fs.writeFile("public/js/datos.js", "window.pilas_log = " + data + ";", function(err) {
         if(err) {
           console.log(err);
         } else {
-          console.log("generando el archivo public/js/datos.js");
+          console.log("Generando el archivo public/js/datos.js");
+          console.log("    ");
+          console.log("Los últimos posts son:");
+          console.log("    " + fbResponse.posts[0]['regular-title']);
+          console.log("    " + fbResponse.posts[1]['regular-title']);
+          console.log("    (" + fbResponse.posts.length + " post en total)");
+          console.log("    ");
+
         }
       });
 

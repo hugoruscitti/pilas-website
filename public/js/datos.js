@@ -8,9 +8,27 @@ window.pilas_log = {
         "feeds": []
     },
     "posts-start": 0,
-    "posts-total": 19,
+    "posts-total": 20,
     "posts-type": false,
     "posts": [
+        {
+            "id": "116860866985",
+            "url": "http://pilas-engine.tumblr.com/post/116860866985",
+            "url-with-slug": "http://pilas-engine.tumblr.com/post/116860866985/se-viene-la-nueva-web",
+            "type": "regular",
+            "date-gmt": "2015-04-19 23:15:48 GMT",
+            "date": "Sun, 19 Apr 2015 19:15:48",
+            "bookmarklet": 0,
+            "mobile": 0,
+            "feed-item": "",
+            "from-feed-id": 0,
+            "unix-timestamp": 1429485348,
+            "format": "html",
+            "reblog-key": "QDHQFfCw",
+            "slug": "se-viene-la-nueva-web",
+            "regular-title": "Se viene la nueva web...",
+            "regular-body": "<p>Este miécoles vamos a estar publicando la nueva web de pilas-engine, junto con los instaladores renovados y algunas sorpresas más.</p>"
+        },
         {
             "id": "104891365035",
             "url": "http://pilas-engine.tumblr.com/post/104891365035",
@@ -48,7 +66,7 @@ window.pilas_log = {
             "reblog-key": "WFd35iwa",
             "slug": "se-publicaron-los-videos-de-avanza-2014",
             "regular-title": "Se publicaron los videos de avanza 2014",
-            "regular-body": "<p>¡Saludos a todos!, hace unos días se realizó el evento avanza 2014, donde se realizó una charla de pilas-engine y varios otros proyectos de software libre.</p>\n<p>Les paso el link del evento, van a encontrar el video de la presentación ahí:</p>\n<p><a class=\"onebox\" href=\"http://www.antel.com.uy/antel/institucional/sala-de-prensa/eventos/2014/tercera-conferencia-internacional-de-software-libre-y--codigo-abierto\" target=\"_blank\">http://www.antel.com.uy/antel/institucional/sala-de-prensa/eventos/2014/tercera-conferencia-internacional-de-software-libre-y&#8212;codigo-abierto<span class=\"badge badge-notification clicks\" title=\"5 clics\">5</span></a></p>\n<p>¡Saludos!</p>"
+            "regular-body": "<p>¡Saludos a todos!, hace unos días se realizó el evento avanza 2014, donde se realizó una charla de pilas-engine y varios otros proyectos de software libre.</p>\n<p>Les paso el link del evento, van a encontrar el video de la presentación ahí:</p>\n<p><a class=\"onebox\" href=\"http://www.antel.com.uy/antel/institucional/sala-de-prensa/eventos/2014/tercera-conferencia-internacional-de-software-libre-y--codigo-abierto\" target=\"_blank\">http://www.antel.com.uy/antel/institucional/sala-de-prensa/eventos/2014/tercera-conferencia-internacional-de-software-libre-y&ndash;codigo-abierto<span class=\"badge badge-notification clicks\" title=\"5 clics\">5</span></a></p>\n<p>¡Saludos!</p>"
         },
         {
             "id": "90203471250",
@@ -102,7 +120,7 @@ window.pilas_log = {
             "reblog-key": "JX8tbLux",
             "slug": "publicamos-la-version-0-83",
             "regular-title": "Publicamos la versión 0.83",
-            "regular-body": "<p>Publicamos la nueva versión 0.83 de pilas&#160;!!!</p>\n<p>Puedes encontrar la versión listo para descargar en:</p>\n<p><a href=\"http://pilas-engine.com.ar/descargas.html\">http://pilas-engine.com.ar/descargas.html</a></p>\n<p><img src=\"http://media.tumblr.com/9bb790612572fade86f840d410fee7bb/tumblr_inline_mwa1qqSuUg1rc29pu.png\"/></p>\n\n<p></p>\n<p><img src=\"http://media.tumblr.com/7de89d3463f7df8a012e43a4bd80a9f7/tumblr_inline_mwa1r4jkfW1rc29pu.png\"/></p>",
+            "regular-body": "<p>Publicamos la nueva versión 0.83 de pilas !!!</p>\n<p>Puedes encontrar la versión listo para descargar en:</p>\n<p><a href=\"http://pilas-engine.com.ar/descargas.html\">http://pilas-engine.com.ar/descargas.html</a></p>\n<p><img src=\"http://media.tumblr.com/9bb790612572fade86f840d410fee7bb/tumblr_inline_mwa1qqSuUg1rc29pu.png\"/></p>\n\n<p></p>\n<p><img src=\"http://media.tumblr.com/7de89d3463f7df8a012e43a4bd80a9f7/tumblr_inline_mwa1r4jkfW1rc29pu.png\"/></p>",
             "tags": [
                 "release"
             ]
@@ -142,24 +160,6 @@ window.pilas_log = {
             "slug": "nos-vamos-a-la-pycones",
             "regular-title": "Nos vamos a la PyConES",
             "regular-body": "<p><img src=\"http://media.tumblr.com/2fa996f513e3b9e952875b5c8209bda7/tumblr_inline_mtq1wyD5G41rc7o9g.png\"/></p>\n\n<p>Hola a todos.</p>\n<p>La charla sobre <strong>Pilas</strong> ha sido seleccionada por los organizadores de la <a href=\"http://2013.es.pycon.org/\">PyConES</a> para su track básico.</p>\n<p>Todavía no está decidido el horario, pero esperamos veros por allí y compartir impresiones.</p>\n<p>Nos vemos ;)</p>"
-        },
-        {
-            "id": "52406903256",
-            "url": "http://pilas-engine.tumblr.com/post/52406903256",
-            "url-with-slug": "http://pilas-engine.tumblr.com/post/52406903256/nuevo-actor-manzana",
-            "type": "regular",
-            "date-gmt": "2013-06-07 21:29:20 GMT",
-            "date": "Fri, 07 Jun 2013 17:29:20",
-            "bookmarklet": 0,
-            "mobile": 0,
-            "feed-item": "",
-            "from-feed-id": 0,
-            "unix-timestamp": 1370640560,
-            "format": "html",
-            "reblog-key": "wzNc1w6m",
-            "slug": "nuevo-actor-manzana",
-            "regular-title": "Nuevo actor Manzana",
-            "regular-body": "<p>Añadimos un nuevo actor <strong>Manzana</strong> para tus juegos.</p>\n<p><img src=\"http://media.tumblr.com/07460a722403f27a1af498070ebfcd0e/tumblr_inline_mo1l01jJ9M1qz4rgp.png\"/></p>\n\n<p>Tus personajes ya no pasarán hambre ;)</p>"
         }
     ]
 };
