@@ -12,9 +12,10 @@
 
   <div class='row'>
     <ul id='descargas'>
-      <li><img width=16 height=16 src='images/windows.png'> <a {{bindAttr href='link_windows'}}>Windows</a></li>
-      <li><img width=16 height=16 src='images/platform_mac.png'> <a {{bindAttr href='link_mac'}}>Mac OS X</a></li>
-      <li><img width=16 height=16 src='images/huayra.png'> <img width=16 height=16 src='images/ico-ubuntu.png'/> <a {{bindAttr href='link_deb'}}>Huayra o Ubuntu</a></li>
+      <li><a class='btn btn-info btn-lg' {{bindAttr href='link_windows'}}><div class='sprite windows'></div> Windows</a></li>
+      <li><a class='btn btn-warning btn-lg' {{bindAttr href='link_mac'}}><div class='sprite platform_mac'></div> Mac OS X</a></li>
+      <li><a class='btn btn-success btn-lg' {{bindAttr href='link_deb'}}><div class='sprite huayra'></div> Huayra Linux</a></li>
+      <li><a class='btn btn-danger btn-lg' {{bindAttr href='link_deb'}}><div class='sprite ico-ubuntu'></div> Ubuntu Linux</a></li>
     </ul>
   </div>
 
