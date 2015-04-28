@@ -1,12 +1,13 @@
 import os
 import datetime
 
+
 def modification_date(filename):
     t = os.path.getmtime(filename)
     return str(datetime.datetime.fromtimestamp(t)).split(' ')[0]
 
 # Rutas iniciales.
-directorio = '/Users/hugoruscitti/Dropbox/Public/releases/pilas-engine' 
+directorio = os.path.expanduser("~/Dropbox/Public/releases/pilas-engine")
 origen = 'app/routes/descargas_template.js'
 destino = 'app/routes/descargas.js'
 
