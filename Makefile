@@ -33,7 +33,7 @@ deploy:
 iniciar:
 	npm install
 	bower install
-	cd ../; git clone http://github.com/hugoruscitti/pilas-website-test.git ghpages__pilas-website-test; cd ghpages__pilas-website-test; git checkout gh-pages;
+	cd ../; git clone http://github.com/hugoruscitti/pilas.git ghpages__pilas-website; cd ghpages__pilas-website; git checkout gh-pages;
 
 
 blog:
