@@ -1,6 +1,10 @@
-# pilas-website-test
+# pilas-website
 
-Una prueba para re-crear el sitio de pilas-engine con emberjs
+El sitio web del proyecto http://www.pilas-engine.com.ar realizado
+con emberjs, liquid-fire y buena suerte :)
+
+
+![](./screenshots/preview.png)
 
 
 
