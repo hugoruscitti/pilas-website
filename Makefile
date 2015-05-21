@@ -27,7 +27,7 @@ deploy:
 	cd ../ghpages__pilas-website/; git add --all .; git commit -m "update"; git push origin gh-pages
 	
 	@echo ""
-	@echo " * Subiendo los cambios a: http://hugoruscitti.github.io/pilas-website-test "
+	@echo " * Subiendo los cambios a: http://www.pilas-engine.com.ar "
 	@echo ""
 
 iniciar:
