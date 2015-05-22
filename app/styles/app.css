@@ -220,3 +220,7 @@ modal-main {
     box-shadow: 0 2.5em 0 0 #FFF;
   }
 }
+
+.btn-lg {
+    font-size: 1.1em !important;
+}
