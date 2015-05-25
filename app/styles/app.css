@@ -224,3 +224,9 @@ modal-main {
 .btn-lg {
     font-size: 1.1em !important;
 }
+
+.btn:hover {
+  margin-top: 3px !important;
+  border-bottom-width: 4px !important;
+  opacity: 0.75 !important;
+}
