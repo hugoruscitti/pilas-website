@@ -32,7 +32,7 @@ window.photos_equipos = {
             "type": "text"
         },
         "icon": {
-            "$t": "http://lh3.ggpht.com/-XREuBkU3LxA/UPmJAW3lW0E/AAAAAAAADEw/M7vO1RyYbqI/s160-c/PilasEngineEquipos.jpg"
+            "$t": "http://lh3.googleusercontent.com/-XREuBkU3LxA/UPmJAW3lW0E/AAAAAAAADEw/M7vO1RyYbqI/s160-c/PilasEngineEquipos.jpg"
         },
         "link": [
             {
@@ -142,7 +142,7 @@ window.photos_equipos = {
                 },
                 "content": {
                     "type": "image/jpeg",
-                    "src": "http://lh3.ggpht.com/-tkfnDDNu7nw/UPmJAvAXs0I/AAAAAAAADEs/d_zdzLVmpA4/d/2011-09-28%25252015.17.24.jpg"
+                    "src": "http://lh3.googleusercontent.com/-tkfnDDNu7nw/UPmJAvAXs0I/AAAAAAAADEs/d_zdzLVmpA4/d/2011-09-28%25252015.17.24.jpg"
                 },
                 "link": [
                     {
@@ -248,7 +248,7 @@ window.photos_equipos = {
                 "media$group": {
                     "media$content": [
                         {
-                            "url": "http://lh3.ggpht.com/-tkfnDDNu7nw/UPmJAvAXs0I/AAAAAAAADEs/d_zdzLVmpA4/d/2011-09-28%25252015.17.24.jpg",
+                            "url": "http://lh3.googleusercontent.com/-tkfnDDNu7nw/UPmJAvAXs0I/AAAAAAAADEs/d_zdzLVmpA4/d/2011-09-28%25252015.17.24.jpg",
                             "height": 1200,
                             "width": 1600,
                             "type": "image/jpeg",
@@ -267,12 +267,12 @@ window.photos_equipos = {
                     "media$keywords": {},
                     "media$thumbnail": [
                         {
-                            "url": "http://lh3.ggpht.com/-tkfnDDNu7nw/UPmJAvAXs0I/AAAAAAAADEs/d_zdzLVmpA4/s128/2011-09-28%25252015.17.24.jpg",
+                            "url": "http://lh3.googleusercontent.com/-tkfnDDNu7nw/UPmJAvAXs0I/AAAAAAAADEs/d_zdzLVmpA4/s128/2011-09-28%25252015.17.24.jpg",
                             "height": 96,
                             "width": 128
                         },
                         {
-                            "url": "http://lh3.ggpht.com/-tkfnDDNu7nw/UPmJAvAXs0I/AAAAAAAADEs/d_zdzLVmpA4/s640/2011-09-28%25252015.17.24.jpg",
+                            "url": "http://lh3.googleusercontent.com/-tkfnDDNu7nw/UPmJAvAXs0I/AAAAAAAADEs/d_zdzLVmpA4/s640/2011-09-28%25252015.17.24.jpg",
                             "height": 480,
                             "width": 640
                         }
@@ -309,7 +309,7 @@ window.photos_equipos = {
                 },
                 "content": {
                     "type": "image/jpeg",
-                    "src": "http://lh6.ggpht.com/-IEcgRlvEGSY/UY8rmoOIuOI/AAAAAAAADEw/v4_-rOFbIZI/d/2013-03-11%25252020.39.39.jpg"
+                    "src": "http://lh3.googleusercontent.com/-IEcgRlvEGSY/UY8rmoOIuOI/AAAAAAAADEw/v4_-rOFbIZI/d/2013-03-11%25252020.39.39.jpg"
                 },
                 "link": [
                     {
@@ -420,7 +420,7 @@ window.photos_equipos = {
                 "media$group": {
                     "media$content": [
                         {
-                            "url": "http://lh6.ggpht.com/-IEcgRlvEGSY/UY8rmoOIuOI/AAAAAAAADEw/v4_-rOFbIZI/d/2013-03-11%25252020.39.39.jpg",
+                            "url": "http://lh3.googleusercontent.com/-IEcgRlvEGSY/UY8rmoOIuOI/AAAAAAAADEw/v4_-rOFbIZI/d/2013-03-11%25252020.39.39.jpg",
                             "height": 1200,
                             "width": 1600,
                             "type": "image/jpeg",
@@ -439,12 +439,12 @@ window.photos_equipos = {
                     "media$keywords": {},
                     "media$thumbnail": [
                         {
-                            "url": "http://lh6.ggpht.com/-IEcgRlvEGSY/UY8rmoOIuOI/AAAAAAAADEw/v4_-rOFbIZI/s128/2013-03-11%25252020.39.39.jpg",
+                            "url": "http://lh3.googleusercontent.com/-IEcgRlvEGSY/UY8rmoOIuOI/AAAAAAAADEw/v4_-rOFbIZI/s128/2013-03-11%25252020.39.39.jpg",
                             "height": 96,
                             "width": 128
                         },
                         {
-                            "url": "http://lh6.ggpht.com/-IEcgRlvEGSY/UY8rmoOIuOI/AAAAAAAADEw/v4_-rOFbIZI/s640/2013-03-11%25252020.39.39.jpg",
+                            "url": "http://lh3.googleusercontent.com/-IEcgRlvEGSY/UY8rmoOIuOI/AAAAAAAADEw/v4_-rOFbIZI/s640/2013-03-11%25252020.39.39.jpg",
                             "height": 480,
                             "width": 640
                         }
