@@ -14,6 +14,11 @@ footer {
   text-align: center;
 }
 
+.panel-botones-documentacion {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
 .features {
   margin-top: 50px;
 }
@@ -113,8 +118,8 @@ ul#descargas {
 
 
     ul#descargas li {
-        margin-left: 1em;
-        margin-right: 1em;
+        margin-left: 10px;
+        margin-right: 10px;
         margin-bottom: 7px;
         display: inline-block;
         height: 50px;
@@ -228,4 +233,8 @@ modal-main {
 .btn:hover {
   border-bottom-width: 4px !important;
   opacity: 0.75 !important;
+}
+
+.btn:hover {
+  margin-top: 0px !important;
 }
