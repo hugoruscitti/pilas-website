@@ -8,18 +8,36 @@ window.pilas_log = {
         "feeds": []
     },
     "posts-start": 0,
-    "posts-total": 21,
+    "posts-total": 22,
     "posts-type": false,
     "posts": [
         {
-            "id": 119628668900,
+            "id": 121689649365,
+            "url": "http://pilas-engine.tumblr.com/post/121689649365",
+            "url-with-slug": "http://pilas-engine.tumblr.com/post/121689649365/publicamos-la-version-0-90-37",
+            "type": "regular",
+            "date-gmt": "2015-06-16 18:39:37 GMT",
+            "date": "Tue, 16 Jun 2015 14:39:37",
+            "bookmarklet": null,
+            "mobile": null,
+            "feed-item": "",
+            "from-feed-id": 0,
+            "unix-timestamp": 1434479977,
+            "format": "html",
+            "reblog-key": "I8VklRiC",
+            "slug": "publicamos-la-version-0-90-37",
+            "regular-title": "Publicamos la versión 0.90.37",
+            "regular-body": "<p>En esta  versión incorporamos un arreglo que permite usar pilas-engine en windows 7</p><p><br/></p><figure class=\"tmblr-full\" data-orig-height=\"618\" data-orig-width=\"1003\"><img src=\"https://36.media.tumblr.com/bd617a2853211281adec0389632269b3/tumblr_inline_nq1vtogsT51rc29pu_540.png\" data-orig-height=\"618\" data-orig-width=\"1003\"/></figure>"
+        },
+        {
+            "id": "119628668900",
             "url": "http://pilas-engine.tumblr.com/post/119628668900",
             "url-with-slug": "http://pilas-engine.tumblr.com/post/119628668900/publicamos-la-web",
             "type": "regular",
             "date-gmt": "2015-05-22 21:27:37 GMT",
             "date": "Fri, 22 May 2015 17:27:37",
-            "bookmarklet": null,
-            "mobile": null,
+            "bookmarklet": 0,
+            "mobile": 0,
             "feed-item": "",
             "from-feed-id": 0,
             "unix-timestamp": 1432330057,
@@ -142,24 +160,6 @@ window.pilas_log = {
             "tags": [
                 "release"
             ]
-        },
-        {
-            "id": "65719281721",
-            "url": "http://pilas-engine.tumblr.com/post/65719281721",
-            "url-with-slug": "http://pilas-engine.tumblr.com/post/65719281721/pilas-en-pycon-2013-rosario",
-            "type": "regular",
-            "date-gmt": "2013-11-01 20:42:44 GMT",
-            "date": "Fri, 01 Nov 2013 16:42:44",
-            "bookmarklet": 0,
-            "mobile": 0,
-            "feed-item": "",
-            "from-feed-id": 0,
-            "unix-timestamp": 1383338564,
-            "format": "html",
-            "reblog-key": "qOjLlanC",
-            "slug": "pilas-en-pycon-2013-rosario",
-            "regular-title": "pilas en pycon 2013 Rosario",
-            "regular-body": "<p><a href=\"http://www.youtube.com/watch?v=tXA2BgzrvzA\"><img src=\"http://media.tumblr.com/40da5620135e97b05c972cb9788aa5b6/tumblr_inline_mvlqqlw6TJ1rc29pu.png\"/></a></p>\n\n<p>Presentamos la charla de pilas en pycon 2013, que se hizo en la ciudad de Rosario.</p>"
         }
     ]
 };
