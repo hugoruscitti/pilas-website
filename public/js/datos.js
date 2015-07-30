@@ -8,18 +8,36 @@ window.pilas_log = {
         "feeds": []
     },
     "posts-start": 0,
-    "posts-total": 22,
+    "posts-total": 23,
     "posts-type": false,
     "posts": [
         {
-            "id": 121689649365,
+            "id": 124850639545,
+            "url": "http://pilas-engine.tumblr.com/post/124850639545",
+            "url-with-slug": "http://pilas-engine.tumblr.com/post/124850639545/publicamos-la-versión-10",
+            "type": "regular",
+            "date-gmt": "2015-07-23 18:05:44 GMT",
+            "date": "Thu, 23 Jul 2015 14:05:44",
+            "bookmarklet": null,
+            "mobile": null,
+            "feed-item": "",
+            "from-feed-id": 0,
+            "unix-timestamp": 1437674744,
+            "format": "html",
+            "reblog-key": "4n96C5g5",
+            "slug": "publicamos-la-versión-10",
+            "regular-title": "¡¡¡ Publicamos la versión 1.0 !!!",
+            "regular-body": "<p>Hoy publicamos la versión 1.0 de pilas-engine, incorporando varios arreglos, en la documentación y el motor principalmente, ¡A celebrar!</p>"
+        },
+        {
+            "id": "121689649365",
             "url": "http://pilas-engine.tumblr.com/post/121689649365",
             "url-with-slug": "http://pilas-engine.tumblr.com/post/121689649365/publicamos-la-version-0-90-37",
             "type": "regular",
             "date-gmt": "2015-06-16 18:39:37 GMT",
             "date": "Tue, 16 Jun 2015 14:39:37",
-            "bookmarklet": null,
-            "mobile": null,
+            "bookmarklet": 0,
+            "mobile": 0,
             "feed-item": "",
             "from-feed-id": 0,
             "unix-timestamp": 1434479977,
@@ -139,27 +157,6 @@ window.pilas_log = {
             "slug": "pilas-en-fmsl",
             "regular-title": "Pilas en FMSL",
             "regular-body": "<p>Este sábado vamos a estar dando una charla sobre pilas-engine en misiones, argentina:</p>\n<p><a href=\"http://fmsl.com.ar/\">http://fmsl.com.ar/</a></p>\n\n<p><img src=\"https://31.media.tumblr.com/189ad99b9292d76dc4ae3f60c0682a11/tumblr_inline_mxpy4jS5AB1rc29pu.png\"/></p>\n\n<p></p>"
-        },
-        {
-            "id": "67006254963",
-            "url": "http://pilas-engine.tumblr.com/post/67006254963",
-            "url-with-slug": "http://pilas-engine.tumblr.com/post/67006254963/publicamos-la-version-0-83",
-            "type": "regular",
-            "date-gmt": "2013-11-14 23:40:47 GMT",
-            "date": "Thu, 14 Nov 2013 18:40:47",
-            "bookmarklet": 0,
-            "mobile": 0,
-            "feed-item": "",
-            "from-feed-id": 0,
-            "unix-timestamp": 1384472447,
-            "format": "html",
-            "reblog-key": "JX8tbLux",
-            "slug": "publicamos-la-version-0-83",
-            "regular-title": "Publicamos la versión 0.83",
-            "regular-body": "<p>Publicamos la nueva versión 0.83 de pilas !!!</p>\n<p>Puedes encontrar la versión listo para descargar en:</p>\n<p><a href=\"http://pilas-engine.com.ar/descargas.html\">http://pilas-engine.com.ar/descargas.html</a></p>\n<p><img src=\"http://media.tumblr.com/9bb790612572fade86f840d410fee7bb/tumblr_inline_mwa1qqSuUg1rc29pu.png\"/></p>\n\n<p></p>\n<p><img src=\"http://media.tumblr.com/7de89d3463f7df8a012e43a4bd80a9f7/tumblr_inline_mwa1r4jkfW1rc29pu.png\"/></p>",
-            "tags": [
-                "release"
-            ]
         }
     ]
 };

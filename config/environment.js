@@ -63,6 +63,10 @@ module.exports = function(environment) {
 
   if (environment === 'production') {
     ENV.baseURL = '/pilas-website-test/';
+
+    ENV.googleAnalytics = {
+      webPropertyId: 'UA-5829629-2'
+    };
   }
 
 // all settings are optionals
