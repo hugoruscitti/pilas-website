@@ -8,18 +8,36 @@ window.pilas_log = {
         "feeds": []
     },
     "posts-start": 0,
-    "posts-total": 24,
+    "posts-total": 25,
     "posts-type": false,
     "posts": [
         {
-            "id": 127839846710,
+            "id": "129953040400",
+            "url": "http://pilas-engine.tumblr.com/post/129953040400",
+            "url-with-slug": "http://pilas-engine.tumblr.com/post/129953040400/publicamos-pilas-engine-12",
+            "type": "regular",
+            "date-gmt": "2015-09-27 01:24:32 GMT",
+            "date": "Sat, 26 Sep 2015 21:24:32",
+            "bookmarklet": 0,
+            "mobile": 0,
+            "feed-item": "",
+            "from-feed-id": 0,
+            "unix-timestamp": 1443317072,
+            "format": "html",
+            "reblog-key": "JgWZJyNh",
+            "slug": "publicamos-pilas-engine-12",
+            "regular-title": "Publicamos pilas-engine 1.2",
+            "regular-body": "<p>Hoy publicamos la versión renovada de pilas-engine, donde incluímos un nuevo ejemplo y se corrige el notificador de errores desde el editor.</p><figure class=\"tmblr-full\" data-orig-height=\"773\" data-orig-width=\"1121\"><img src=\"http://41.media.tumblr.com/21fcab4a483569f98f83563f2aed1903/tumblr_inline_nvbak6jRz81rc29pu_540.png\" data-orig-height=\"773\" data-orig-width=\"1121\"/></figure>"
+        },
+        {
+            "id": "127839846710",
             "url": "http://pilas-engine.tumblr.com/post/127839846710",
             "url-with-slug": "http://pilas-engine.tumblr.com/post/127839846710/publicamos-la-versión-11",
             "type": "regular",
             "date-gmt": "2015-08-29 04:28:51 GMT",
             "date": "Sat, 29 Aug 2015 00:28:51",
-            "bookmarklet": null,
-            "mobile": null,
+            "bookmarklet": 0,
+            "mobile": 0,
             "feed-item": "",
             "from-feed-id": 0,
             "unix-timestamp": 1440822531,
@@ -139,24 +157,6 @@ window.pilas_log = {
             "slug": "se-publicaron-los-videos-de-avanza-2014",
             "regular-title": "Se publicaron los videos de avanza 2014",
             "regular-body": "<p>¡Saludos a todos!, hace unos días se realizó el evento avanza 2014, donde se realizó una charla de pilas-engine y varios otros proyectos de software libre.</p>\n<p>Les paso el link del evento, van a encontrar el video de la presentación ahí:</p>\n<p><a class=\"onebox\" href=\"http://www.antel.com.uy/antel/institucional/sala-de-prensa/eventos/2014/tercera-conferencia-internacional-de-software-libre-y--codigo-abierto\" target=\"_blank\">http://www.antel.com.uy/antel/institucional/sala-de-prensa/eventos/2014/tercera-conferencia-internacional-de-software-libre-y&ndash;codigo-abierto<span class=\"badge badge-notification clicks\" title=\"5 clics\">5</span></a></p>\n<p>¡Saludos!</p>"
-        },
-        {
-            "id": "90203471250",
-            "url": "http://pilas-engine.tumblr.com/post/90203471250",
-            "url-with-slug": "http://pilas-engine.tumblr.com/post/90203471250/videotutoriales-de-pilas-engine-en-educar",
-            "type": "regular",
-            "date-gmt": "2014-06-29 00:45:06 GMT",
-            "date": "Sat, 28 Jun 2014 20:45:06",
-            "bookmarklet": 0,
-            "mobile": 0,
-            "feed-item": "",
-            "from-feed-id": 0,
-            "unix-timestamp": 1404002706,
-            "format": "html",
-            "reblog-key": "kJ393qDe",
-            "slug": "videotutoriales-de-pilas-engine-en-educar",
-            "regular-title": "Videotutoriales de pilas-engine en educ.ar",
-            "regular-body": "<p>Saludos a todos!, les quería comentar que educ.ar publicó el taller completo de pilas-engine en videotutoriales para descargar:</p>\n<p><a class=\"onebox\" href=\"http://www.educ.ar/sitios/educar/recursos/ver?id=122993\" rel=\"nofollow\">http://www.educ.ar/sitios/educar/recursos/ver?id=122993<span class=\"badge badge-notification clicks\" title=\"clicks\">4</span></a></p>\n<p>Mirá nuestro anuncio en el foro para mas detalles:</p>\n<p><a href=\"http://foro-pilasengine.com.ar/t/videotutoriales-de-pilas-engine-en-educ-ar/161\">http://foro-pilasengine.com.ar/t/videotutoriales-de-pilas-engine-en-educ-ar/161</a></p>"
         }
     ]
 };
