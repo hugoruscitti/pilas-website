@@ -1,0 +1,18 @@
+    <td>
+      {{#link-to destino}}
+        {{#if url}}
+          <img {{bind-attr src=url}}/>
+        {{/if}}
+      {{/link-to}}
+    </td>
+
+    <td>
+
+     <h4>{{#link-to destino}}{{titulo}}{{/link-to}}</h4>
+
+
+        <p>{{descripcion}}</p>
+        <ul style='margin-left: 1em; list-style-type: disc'>
+        <li>{{#link-to destino}}Abrir{{/link-to}}</li>
+     </ul>
+    </td>

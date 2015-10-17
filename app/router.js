@@ -15,7 +15,10 @@ Router.map(function() {
     this.route('play', {path: '/:video_id'});
   });
 
-  this.route("docs");
+  this.resource("docs", {path: '/docs'}, function() {
+    this.route('disparar_a_monos', {path: '/disparar_a_monos'});
+  });
+
   this.route("descargas");
   this.route("acercade");
   this.route("photo-modal");
