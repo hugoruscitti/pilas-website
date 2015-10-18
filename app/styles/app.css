@@ -238,3 +238,43 @@ modal-main {
 .btn:hover {
   margin-top: 0px !important;
 }
+
+
+.tutorial {
+
+}
+
+.tutorial img {
+  margin: auto;
+  padding: 20px;
+}
+
+.tutorial h2 {
+  color: #42A7FF;
+}
+
+.tutorial h3 {
+  color: red;
+  border-top: 1px dashed #83C4FF;
+}
+
+.tutorial p {
+  text-align: justify;
+}
+
+.fondo-verde {
+  background-color: rgba(53, 255, 61, 0.21);
+}
+
+.line-highlight {
+  background-color: rgba(53, 255, 61, 0.21);
+}
+
+.autor-tutorial {
+  border: 1px solid #FFFF97;
+  width: 350px;
+  margin-left: auto;
+  background-color: #FEFFEB;
+  padding: 10px;
+  text-align: center;
+}

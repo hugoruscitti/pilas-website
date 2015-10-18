@@ -1,7 +1,141 @@
 <div class="row">
-  {{#link-to "docs" class='btn btn-info'}}&lt; Regresar{{/link-to}}
+  <div class="col-md-9">
+    {{#link-to "docs" class='btn btn-info'}}&lt; Regresar{{/link-to}}
+  </div>
 </div>
 
-<div class="row">
-  <h1>Disparar a monos</h1>
+<div class="row tutorial">
+
+<div class="col-md-9">
+
+<h1> Disparar a monos</h1>
+
+<div class='autor-tutorial'>
+  <p>Realizado por: Fernando Salamero</p>
+  <p>Versión de pilas-engine: 1.3 en adelante</p>
+</div>
+
+{{#p-markdown}}
+
+
+## Pilas: Un primer Juego
+
+
+### disparar_a_monos.py
+
+Entre los ejemplos que incorpora Pilas, tenemos una buena
+primera aproximación con el proyecto **disparar_a_monos.py**,
+pues muestra un esqueleto general de cara al jugador.
+
+![](images/tutoriales/disparar_a_monos/inicial.jpg)
+
+El juego consiste en un pequeño torreta que ha de disparar a los monos que
+se generan al azar en pantalla y que intentan llegar hasta él para
+destruirlo. El juego incluye un sencillo marcador de puntuación, un
+control de sonido, un sistema de bonus y avisos de texto en pantalla. Tanto
+sonidos como imágenes están incorporados en Pilas, así que no necesitamos
+ningún recurso añadido.
+
+{{/p-markdown}}
+
+
+<p>
+  En cada paso que demos para llegar a nuestro objetivo, pondremos lo que sea
+  nuevo o lo que modifiquemos con <span class='fondo-verde'>fondo verde</span>.
+  <strong>¿Estamos preparados?</strong>
+</p>
+
+{{#p-markdown}}
+¡Escribamos código!
+
+
+### paso1.py
+
+El primer paso que vamos a dar es situar el escenario, es decir,
+elegir un fondo, preparar un marcador, poner un control de sonido:
+
+{{/p-markdown}}
+
+
+{{#p-codigo}}
+#! /usr/bin/env python
+# -*- coding: utf-8 -*-
+
+import pilasengine
+
+pilas = pilasengine.iniciar()
+
+# Usar un fondo estándar
+pilas.fondos.Pasto()
+
+# Añadir un marcador
+puntos = pilas.actores.Puntaje(x=230, y=200, color=pilas.colores.blanco)
+puntos.magnitud = 40
+
+# Añadir el conmutador de Sonido
+pilas.actores.Sonido()
+
+# Arrancar el juego
+pilas.ejecutar()
+{{/p-codigo}}
+
+
+
+{{#p-markdown}}
+Lo primero, como ya sabemos, es importar pilas-engine e inicializarlo, en este
+caso creando la ventana por defecto de 640x480 pixeles.
+
+A continuación, establecemos como fondo uno de los incorporados en el
+motor a través del módulo ``pilas.fondos``. El elegido, ``Pasto``, tiene una
+textura verde cercana a la selvática jungla donde viven los monos :-)...
+
+Toca el turno del marcador. Entre los actores predefinidos en el módulo
+`pilas.actores` tenemos uno que se encarga precisamente de ello; `Puntaje`. Al
+crearlo y almacenarlo en la variable puntos para su uso posterior,
+aprovechamos a colocarlo en la posición adecuada, cerca de la esquina superior
+derecha (recuerda que el centro de la ventana tiene coordenadas `x=0` e `y=0`).
+El color blanco que va a tener lo indicamos usando, nuevamente, uno de los
+predefinidos en otro módulo: `pilas.colores`.
+
+En realidad, la clase de actores `Puntaje` es una clase derivada de otra de
+Pilas, `Texto`, con lo que hereda sus características, atributos y
+métodos. Entre ellos, la propiedad `magnitud` indica el tamaño que tendrá el
+texto (del marcador, en este caso) y como queremos que se vea en grande, lo
+ponemos a un valor de `40`.
+
+Por último, pasamos al sonido. Como puede verse en la captura de pantalla
+del juego, queremos poner un botón que permita activar/desactivar el sonido
+haciendo click sobre él. Nuevamente, Pilas contiene esta funcionalidad de
+serie...: El actor `Sonido`.
+
+En el intérprete de Pilas puedes probar y escribir:
+{{/p-markdown}}
+
+
+{{#p-codigo}}
+pilas.ver(pilasengine.actores.Sonido)
+{{/p-codigo}}
+
+
+
+{{#p-markdown}}
+para que veas su código y como está implementado. Allí comprobarás como,
+efectivamente, el actor se crea directamente en la esquina inferior
+derecha. Además también incluye la modificación del icono para mostrar
+el estado del botón y un aviso de texto cuando éste se pulse. El sistema de
+avisos de texto de Pilas es muy elegante y poco intrusivo; aparece durante un
+breve periodo de tiempo en la parte inferior con un fondo semitransparente.
+
+
+![](images/tutoriales/disparar_a_monos/codigo.png)
+
+¡Ya estamos! Guarda el archivo con el nombre de **paso1.py** y arrástralo sobre
+la ventana para verlo en ejecución. Pulsa el botón pulsando su icono.
+¿No está mal para tan pocas lineas, verdad?
+
+![](images/tutoriales/disparar_a_monos/paso1.jpeg)
+
+{{/p-markdown}}
+
+</div>
 </div>
