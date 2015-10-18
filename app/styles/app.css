@@ -262,6 +262,10 @@ modal-main {
   text-align: justify;
 }
 
+.tutorial li {
+  font-size: large;
+}
+
 .fondo-verde {
   background-color: rgba(53, 255, 61, 0.21);
 }
@@ -277,4 +281,11 @@ modal-main {
   background-color: #FEFFEB;
   padding: 10px;
   text-align: center;
+}
+
+
+.autor-continuara {
+  color: red;
+  font-size: x-large;
+  text-align: left;
 }
