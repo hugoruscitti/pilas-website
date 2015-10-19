@@ -8,9 +8,27 @@ window.pilas_log = {
         "feeds": []
     },
     "posts-start": 0,
-    "posts-total": 25,
+    "posts-total": 26,
     "posts-type": false,
     "posts": [
+        {
+            "id": 131472122400,
+            "url": "http://pilas-engine.tumblr.com/post/131472122400",
+            "url-with-slug": "http://pilas-engine.tumblr.com/post/131472122400/pilas-engine-13-ya-está-aquí",
+            "type": "regular",
+            "date-gmt": "2015-10-19 05:15:15 GMT",
+            "date": "Mon, 19 Oct 2015 01:15:15",
+            "bookmarklet": null,
+            "mobile": null,
+            "feed-item": "",
+            "from-feed-id": 0,
+            "unix-timestamp": 1445231715,
+            "format": "html",
+            "reblog-key": "8P0BpDdm",
+            "slug": "pilas-engine-13-ya-está-aquí",
+            "regular-title": "pilas-engine 1.3 ya está aquí",
+            "regular-body": "<p>Hoy lanzamos la versión nueva de pilas-engine, que incluye documentación para programadores, dos nuevos ejemplos y muchas mejoras más.</p><figure class=\"tmblr-full\" data-orig-height=\"556\" data-orig-width=\"689\"><img src=\"http://36.media.tumblr.com/21f0e95d935cc8a7c2c2c689682b10d5/tumblr_inline_nwgbx5TlFG1rc29pu_540.png\" data-orig-height=\"556\" data-orig-width=\"689\"/></figure><figure class=\"tmblr-full\" data-orig-height=\"681\" data-orig-width=\"757\"><img src=\"http://41.media.tumblr.com/574b024539332c60416728c84fd45a93/tumblr_inline_nwgbxboFRg1rc29pu_540.png\" data-orig-height=\"681\" data-orig-width=\"757\"/></figure>"
+        },
         {
             "id": "129953040400",
             "url": "http://pilas-engine.tumblr.com/post/129953040400",
@@ -139,24 +157,6 @@ window.pilas_log = {
             "tags": [
                 "lanzamiento"
             ]
-        },
-        {
-            "id": "95479240995",
-            "url": "http://pilas-engine.tumblr.com/post/95479240995",
-            "url-with-slug": "http://pilas-engine.tumblr.com/post/95479240995/se-publicaron-los-videos-de-avanza-2014",
-            "type": "regular",
-            "date-gmt": "2014-08-22 19:10:57 GMT",
-            "date": "Fri, 22 Aug 2014 15:10:57",
-            "bookmarklet": 0,
-            "mobile": 0,
-            "feed-item": "",
-            "from-feed-id": 0,
-            "unix-timestamp": 1408734657,
-            "format": "html",
-            "reblog-key": "WFd35iwa",
-            "slug": "se-publicaron-los-videos-de-avanza-2014",
-            "regular-title": "Se publicaron los videos de avanza 2014",
-            "regular-body": "<p>¡Saludos a todos!, hace unos días se realizó el evento avanza 2014, donde se realizó una charla de pilas-engine y varios otros proyectos de software libre.</p>\n<p>Les paso el link del evento, van a encontrar el video de la presentación ahí:</p>\n<p><a class=\"onebox\" href=\"http://www.antel.com.uy/antel/institucional/sala-de-prensa/eventos/2014/tercera-conferencia-internacional-de-software-libre-y--codigo-abierto\" target=\"_blank\">http://www.antel.com.uy/antel/institucional/sala-de-prensa/eventos/2014/tercera-conferencia-internacional-de-software-libre-y&ndash;codigo-abierto<span class=\"badge badge-notification clicks\" title=\"5 clics\">5</span></a></p>\n<p>¡Saludos!</p>"
         }
     ]
 };
