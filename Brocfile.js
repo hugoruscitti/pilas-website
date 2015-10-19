@@ -2,7 +2,12 @@
 
 var EmberApp = require('ember-cli/lib/broccoli/ember-app');
 
-var app = new EmberApp();
+var app = new EmberApp({
+  fingerprint: {
+    exclude: ['public/images/tutoriales/disparar_a_monos.png'],
+  },
+});
+
 app.import('bower_components/showdown/dist/showdown.js');
 
 // Use `app.import` to add additional libraries to the generated
