@@ -79,11 +79,7 @@ ember s
 
 Y luego abrí un navegador en la dirección `http://localhost:4200`
 
-Tendrías que ver en pantalla algo así:
-
-
-![](./screenshots/webserver.png)
-
+![](./screenshots/server.png)
 
 Todos los archivos a editar están en el directorio ``app``, en particular
 los que están en ``app/templates``. Observá que mientras el comando ``serve``
@@ -91,4 +87,4 @@ está corriendo, cualquier cambio que hagas en los archivos del directorio
 ``app`` tendrían que verse reflejados en el navegador sin necesidad de
 actualizar el navegador.
 
-![](./screenshots/server.png)
+
