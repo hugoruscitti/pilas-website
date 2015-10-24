@@ -1,0 +1,238 @@
+<div class="row">
+  <div class="col-md-9">
+    {{#link-to "docs" class='btn btn-info'}}&lt; Regresar{{/link-to}}
+  </div>
+</div>
+
+<div class="row tutorial">
+
+<div class="col-md-12">
+  <h1>Guía de conversión a la nueva versión</h1>
+
+  <div class='autor-tutorial'>
+    <p>Realizado por: <strong>Fernando Salamero</strong></p>
+  </div>
+
+
+<p>
+  En este documento se recoge de manera detallada los cambios que se han
+  producido entre las dos versiones de pilasengine (de las 0.8x iniciales
+  a las >=0.9x), con el fin de que proyectos desarrollados previamente puedan
+  portarse para que funcionen correctamente con la versión más actualizada.
+  Si tienes dificultades con ello… ¡aquí tienes la respuesta!
+</p>
+
+
+
+<h2>¡Comencemos!</h2>
+
+<p>Primero importar la librería correcta (ahora pasa a llamarse pilasengine):</p>
+
+{{#p-api}}
+  {{#p-api-bloque titulo='Antes'}}import pilas{{/p-api-bloque}}
+  {{#p-api-bloque titulo='Después'}}import pilasengine{{/p-api-bloque}}
+{{/p-api}}
+
+<p>Crear el objeto pilas (desde él se accede a todas las características del engine).</p>
+
+{{#p-api}}
+  {{#p-api-bloque titulo='Antes'}}pilas.iniciar(){{/p-api-bloque}}
+  {{#p-api-bloque titulo='Después'}}pilas = pilasengine.iniciar(){{/p-api-bloque}}
+{{/p-api}}
+
+
+<p>Las parámetros en los actores derivados se han de cargar nombrando el argumento.</p>
+
+{{#p-api}}
+  {{#p-api-bloque titulo='Antes'}}pilas.actores.Actor("huevo.png"){{/p-api-bloque}}
+  {{#p-api-bloque titulo='Después'}}pilas.actores.Actor(imagen="huevo.png"){{/p-api-bloque}}
+{{/p-api}}
+
+
+<p>El módulo atajos desaparece, se accede directamente a su funcionalidad más usual.</p>
+
+{{#p-api}}
+  {{#p-api-bloque titulo='Antes'}}pilas.atajos.ocultar_puntero_del_mouse()
+pilas.atajos.mostrar_puntero_del_mouse()
+pilas.atajos.modo_pantalla_completa()
+pilas.atajos.modo_ventana(){{/p-api-bloque}}
+  {{#p-api-bloque titulo='Después'}}pilas.ocultar_puntero_del_mouse()
+pilas.mostrar_puntero_del_mouse()
+pilas.definir_pantalla_completa(True)
+pilas.definir_pantalla_completa(False){{/p-api-bloque}}
+{{/p-api}}
+
+<p>Los nuevos actores se derivan de pilasengine.actores.Actor, no es necesario usar el método __init__ (pasando su funcionalidad al método iniciar) y deben vincularse al objeto pilas.
+</p>
+
+{{#p-api}}
+  {{#p-api-bloque titulo='Antes'}}class Spiderman(pilas.actores.Actor):
+    def __init__(self, y=0):
+        ….
+
+prota = Spiderman(500)
+{{/p-api-bloque}}
+  {{#p-api-bloque titulo='Después'}}class Spiderman(pilasengine.actores.Actor):
+    def iniciar(self, y=0):
+        ...
+
+pilas.actores.vincular(Spiderman)
+
+prota = pilas.actores.Spiderman(y=500){{/p-api-bloque}}
+{{/p-api}}
+
+
+<p>Los grupos de actores residen ahora en el módulo actores.</p>
+
+
+{{#p-api}}
+  {{#p-api-bloque titulo='Antes'}}pilas.grupo.Grupo(){{/p-api-bloque}}
+  {{#p-api-bloque titulo='Después'}}pilas.actores.Grupo(){{/p-api-bloque}}
+{{/p-api}}
+
+<p>Las escenas se implementan de forma coherente con el sistema de vinculación y declaración que hemos visto en los actores.
+</p>
+
+{{#p-api}}
+  {{#p-api-bloque titulo='Antes'}}class EscenaMenu(pilas.escena.Base):
+
+    def __init__(self):
+        pilas.escena.Base.__init__(self)
+        ….
+
+    def iniciar(self):
+        pilas.fondos.Fondo("corazones.png")
+        ….
+
+pilas.cambiar_escena(EscenaMenu()){{/p-api-bloque}}
+  {{#p-api-bloque titulo='Después'}}class EscenaMenu(pilasengine.escenas.Escena):
+
+    def iniciar(self):
+        pilas.fondos.Fondo("corazones.png")
+        ….
+
+
+pilas.escenas.vincular(EscenaMenu)
+
+
+pilas.escenas.EscenaMenu(){{/p-api-bloque}}
+{{/p-api}}
+
+<p>Las colisiones se pueden agregar directamente desde su módulo (aunque el método anterior sigue siendo posible también).
+</p>
+
+{{#p-api}}
+  {{#p-api-bloque titulo='Antes'}}pilas.escena_actual().colisiones.agregar(sprite, sprite2, rebotar){{/p-api-bloque}}
+  {{#p-api-bloque titulo='Después'}}pilas.colisiones.agregar(sprite, sprite2, rebotar){{/p-api-bloque}}
+{{/p-api}}
+
+
+
+<p>Las tareas ahora están en un módulo que las agrupa a todas:</p>
+
+{{#p-api}}
+  {{#p-api-bloque titulo='Antes'}}pilas.mundo.agregar_tarea(tiempo, funcion_a_llamar)
+pilas.mundo.agregar_tarea_una_vez(tiempo, funcion_a_llamar)
+pilas.mundo.agregar_tarea_siempre(tiempo, funcion_a_llamar)
+pilas.mundo.agregar_tarea_condicional(tiempo, funcion_a_llamar){{/p-api-bloque}}
+  {{#p-api-bloque titulo='Después'}}pilas.tareas.agregar(tiempo, funcion_a_llamar)
+pilas.tareas.una_vez(tiempo, funcion_a_llamar)
+pilas.tareas.siempre(tiempo, funcion_a_llamar)
+pilas.tareas.condicional(tiempo, funcion_a_llamar){{/p-api-bloque}}
+{{/p-api}}
+
+
+<p>Los controles personalizados no requieren que se les pase la escena
+</p>
+
+
+{{#p-api}}
+  {{#p-api-bloque titulo='Antes'}}mandos = pilas.control.Control(pilas.escena_actual(), teclas){{/p-api-bloque}}
+  {{#p-api-bloque titulo='Después'}}mandos = pilas.control.Control(teclas){{/p-api-bloque}}
+{{/p-api}}
+
+
+<p>Los comportamientos (personalizados) se siguen usando en conjunción con el método hacer() pero no con una instancia de ellos, como se hacía antes, si no después de vincularlos (como los actores) y utilizando "etiquetas".
+Si se añaden varios comportamientos, se harán uno tras otro. Para finalizar uno de manera inmediata, éste debe devolver True.</p>
+
+{{#p-api}}
+  {{#p-api-bloque titulo='Antes'}}class Esperando(pilas.comportamientos.Comportamiento):
+    def __init__(self, receptor):
+        ….
+
+
+mi_actor.hacer(Esperando()){{/p-api-bloque}}
+  {{#p-api-bloque titulo='Después'}}
+class Esperando(pilasengine.comportamientos.Comportamiento):
+    ….
+
+pilas.comportamientos.vincular(Esperando)
+mi_actor.hacer("Esperando")
+{{/p-api-bloque}}
+{{/p-api}}
+
+
+<p>Las habilidades (personalizadas) siguen de forma coherente el esquema de los comportamientos
+</p>
+
+{{#p-api}}
+  {{#p-api-bloque titulo='Antes'}}class Cantar(pilas.habilidades.Habilidad):
+    def __init__(self, receptor)
+        ….
+
+mi_actor.aprender(Cantar){{/p-api-bloque}}
+  {{#p-api-bloque titulo='Después'}}class Cantar(pilasengine.habilidades.Habilidad):
+    ….
+
+pilas.habilidades.vincular(Cantar)
+mi_actor.aprender("Cantar"){{/p-api-bloque}}
+{{/p-api}}
+
+
+<p>Los ángulos se miden ahora como es usual en matemáticas; desde el eje positivo de las x. Así que un ángulo de 0º indica "hacia la derecha" (lo que antes era -90º)
+</p>
+
+{{#p-api}}
+  {{#p-api-bloque titulo='Antes'}}#En el archivo inicial
+
+import pilas
+pilas.iniciar()
+…
+
+#En otro archivo diferente
+
+import pilas
+
+class EscenaMenu(pilas.escena.Base):
+
+    def __init__(self):
+        pilas.escena.Base.__init__(self)
+        ….
+
+    def iniciar(self):
+        pilas.fondos.Fondo("corazones.png")
+
+{{/p-api-bloque}}
+  {{#p-api-bloque titulo='Después'}}#En el archivo inicial
+
+import pilasengine
+pilas = pilasengine.iniciar()
+…
+
+#En otro archivo diferente
+
+import pilasengine
+
+class EscenaMenu(pilasengine.escenas.Escena):
+
+    def iniciar(self):
+        self.pilas.fondos.Fondo("corazones.png")
+        ….
+
+{{/p-api-bloque}}
+{{/p-api}}
+
+<p>Eso es todo, el resto de las llamadas serán idénticas.</p>
+
+
+</div>

@@ -15,13 +15,14 @@ Router.map(function() {
     this.route('play', {path: '/:video_id'});
   });
 
-  this.resource("docs", {path: '/docs'}, function() {
-    this.route('disparar_a_monos', {path: '/disparar_a_monos'});
-  });
-
   this.route("descargas");
   this.route("acercade");
   this.route("photo-modal");
+
+  this.route('docs', function() {
+    this.route('disparar_a_monos');
+    this.route('guia_conversion');
+  });
 });
 
 export default Router;

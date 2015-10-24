@@ -249,6 +249,11 @@ modal-main {
   padding: 20px;
 }
 
+table.tutoriales img {
+  padding: 0;
+  max-width: none;
+}
+
 .tutorial h2 {
   color: #42A7FF;
 }
@@ -288,4 +293,23 @@ modal-main {
   color: red;
   font-size: x-large;
   text-align: left;
+}
+
+.p-api {
+
+
+
+}
+
+.p-api .col-md-6 {
+  padding-left: 0;
+  padding-right: 6px;
+}
+
+.p-api-bloque-title {
+  background-color: #008EFF;
+  color: white;
+  padding: 3px;
+  font-size: large;
+  padding-left: 11px;
 }
