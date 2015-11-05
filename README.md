@@ -62,7 +62,7 @@ las dependencias:
 
 ```
 git clone ruta_al_repositorio
-sudo npm install -g ember
+sudo npm install -g ember-cli
 cd pilas-website
 make iniciar
 ```
