@@ -8,18 +8,36 @@ window.pilas_log = {
         "feeds": []
     },
     "posts-start": 0,
-    "posts-total": 26,
+    "posts-total": 27,
     "posts-type": false,
     "posts": [
         {
-            "id": 131472122400,
+            "id": 135445978555,
+            "url": "http://pilas-engine.tumblr.com/post/135445978555",
+            "url-with-slug": "http://pilas-engine.tumblr.com/post/135445978555/publicamos-pilas-engine-14",
+            "type": "regular",
+            "date-gmt": "2015-12-18 15:21:09 GMT",
+            "date": "Fri, 18 Dec 2015 10:21:09",
+            "bookmarklet": null,
+            "mobile": null,
+            "feed-item": "",
+            "from-feed-id": 0,
+            "unix-timestamp": 1450452069,
+            "format": "html",
+            "reblog-key": "snAuJsvF",
+            "slug": "publicamos-pilas-engine-14",
+            "regular-title": "¡publicamos pilas-engine 1.4!",
+            "regular-body": "<p>Hoy lanzamos la nueva versión de pilas-engine, con mejoras en el sistema de colisiones y el soporte unicode.</p><figure class=\"tmblr-full\" data-orig-height=\"891\" data-orig-width=\"1182\"><img src=\"http://41.media.tumblr.com/700da3130bd3ae442efff19f1c25e626/tumblr_inline_nzk7wtkDbR1rc29pu_540.png\" data-orig-height=\"891\" data-orig-width=\"1182\"/></figure>"
+        },
+        {
+            "id": "131472122400",
             "url": "http://pilas-engine.tumblr.com/post/131472122400",
             "url-with-slug": "http://pilas-engine.tumblr.com/post/131472122400/pilas-engine-13-ya-está-aquí",
             "type": "regular",
             "date-gmt": "2015-10-19 05:15:15 GMT",
             "date": "Mon, 19 Oct 2015 01:15:15",
-            "bookmarklet": null,
-            "mobile": null,
+            "bookmarklet": 0,
+            "mobile": 0,
             "feed-item": "",
             "from-feed-id": 0,
             "unix-timestamp": 1445231715,
@@ -136,27 +154,6 @@ window.pilas_log = {
             "slug": "se-viene-la-nueva-web",
             "regular-title": "Se viene la nueva web...",
             "regular-body": "<p>Este miécoles vamos a estar publicando la nueva web de pilas-engine, junto con los instaladores renovados y algunas sorpresas más.</p>"
-        },
-        {
-            "id": "104891365035",
-            "url": "http://pilas-engine.tumblr.com/post/104891365035",
-            "url-with-slug": "http://pilas-engine.tumblr.com/post/104891365035/publicamos-la-versión-beta-09016",
-            "type": "regular",
-            "date-gmt": "2014-12-11 02:29:25 GMT",
-            "date": "Wed, 10 Dec 2014 21:29:25",
-            "bookmarklet": 0,
-            "mobile": 0,
-            "feed-item": "",
-            "from-feed-id": 0,
-            "unix-timestamp": 1418264965,
-            "format": "html",
-            "reblog-key": "up763GYe",
-            "slug": "publicamos-la-versión-beta-09016",
-            "regular-title": "Publicamos la versión beta 0.90.16",
-            "regular-body": "<p>¡Saludos!, hoy queremos anunciar que tenemos una nueva versión beta de pilas-engine, aquí está el anuncio oficial:</p>\n<p><a href=\"http://foro.pilas-engine.com.ar/t/publicamos-una-nueva-beta-0-90-16/290\">http://foro.pilas-engine.com.ar/t/publicamos-una-nueva-beta-0-90-16/290</a></p>",
-            "tags": [
-                "lanzamiento"
-            ]
         }
     ]
 };
