@@ -8,18 +8,36 @@ window.pilas_log = {
         "feeds": []
     },
     "posts-start": 0,
-    "posts-total": 28,
+    "posts-total": 29,
     "posts-type": false,
     "posts": [
         {
-            "id": 141175366565,
+            "id": 149511684735,
+            "url": "http://pilas-engine.tumblr.com/post/149511684735",
+            "url-with-slug": "http://pilas-engine.tumblr.com/post/149511684735/lanzamos-pilas-148",
+            "type": "regular",
+            "date-gmt": "2016-08-26 15:26:37 GMT",
+            "date": "Fri, 26 Aug 2016 11:26:37",
+            "bookmarklet": null,
+            "mobile": null,
+            "feed-item": "",
+            "from-feed-id": 0,
+            "unix-timestamp": 1472225197,
+            "format": "html",
+            "reblog-key": "yAUd8Nw0",
+            "slug": "lanzamos-pilas-148",
+            "regular-title": "Lanzamos pilas 1.4.8",
+            "regular-body": "<p>Esta versión incorpora mejoras en el sistema de audio: ahora se pueden aplicar efectos de volumen, forzar la inicialización de audio de forma segura y otros cambios menores.</p>"
+        },
+        {
+            "id": "141175366565",
             "url": "http://pilas-engine.tumblr.com/post/141175366565",
             "url-with-slug": "http://pilas-engine.tumblr.com/post/141175366565/lanzamos-pilas-engine-143",
             "type": "regular",
             "date-gmt": "2016-03-17 01:16:31 GMT",
             "date": "Wed, 16 Mar 2016 21:16:31",
-            "bookmarklet": null,
-            "mobile": null,
+            "bookmarklet": 0,
+            "mobile": 0,
             "feed-item": "",
             "from-feed-id": 0,
             "unix-timestamp": 1458177391,
@@ -27,7 +45,7 @@ window.pilas_log = {
             "reblog-key": "K9u0l0oq",
             "slug": "lanzamos-pilas-engine-143",
             "regular-title": "Lanzamos pilas-engine 1.4.3",
-            "regular-body": "<p>Hoy publicamos una nueva versión de pilas-engine, con varios arreglos y mejoras.</p><figure class=\"tmblr-full\" data-orig-height=\"613\" data-orig-width=\"799\"><img src=\"http://41.media.tumblr.com/ed924474bdbc5a5afe365c7555f4a9be/tumblr_inline_o45sucAEVK1rc29pu_540.png\" data-orig-height=\"613\" data-orig-width=\"799\"/></figure>"
+            "regular-body": "<p>Hoy publicamos una nueva versión de pilas-engine, con varios arreglos y mejoras.</p><figure class=\"tmblr-full\" data-orig-height=\"613\" data-orig-width=\"799\"><img src=\"http://67.media.tumblr.com/ed924474bdbc5a5afe365c7555f4a9be/tumblr_inline_o45sucAEVK1rc29pu_540.png\" data-orig-height=\"613\" data-orig-width=\"799\"/></figure>"
         },
         {
             "id": "135445978555",
@@ -45,7 +63,7 @@ window.pilas_log = {
             "reblog-key": "snAuJsvF",
             "slug": "publicamos-pilas-engine-14",
             "regular-title": "¡publicamos pilas-engine 1.4!",
-            "regular-body": "<p>Hoy lanzamos la nueva versión de pilas-engine, con mejoras en el sistema de colisiones y el soporte unicode.</p><figure class=\"tmblr-full\" data-orig-height=\"891\" data-orig-width=\"1182\"><img src=\"http://41.media.tumblr.com/700da3130bd3ae442efff19f1c25e626/tumblr_inline_nzk7wtkDbR1rc29pu_540.png\" data-orig-height=\"891\" data-orig-width=\"1182\"/></figure>"
+            "regular-body": "<p>Hoy lanzamos la nueva versión de pilas-engine, con mejoras en el sistema de colisiones y el soporte unicode.</p><figure class=\"tmblr-full\" data-orig-height=\"891\" data-orig-width=\"1182\"><img src=\"http://67.media.tumblr.com/700da3130bd3ae442efff19f1c25e626/tumblr_inline_nzk7wtkDbR1rc29pu_540.png\" data-orig-height=\"891\" data-orig-width=\"1182\"/></figure>"
         },
         {
             "id": "131472122400",
@@ -63,7 +81,7 @@ window.pilas_log = {
             "reblog-key": "8P0BpDdm",
             "slug": "pilas-engine-13-ya-está-aquí",
             "regular-title": "pilas-engine 1.3 ya está aquí",
-            "regular-body": "<p>Hoy lanzamos la versión nueva de pilas-engine, que incluye documentación para programadores, dos nuevos ejemplos y muchas mejoras más.</p><figure class=\"tmblr-full\" data-orig-height=\"556\" data-orig-width=\"689\"><img src=\"http://36.media.tumblr.com/21f0e95d935cc8a7c2c2c689682b10d5/tumblr_inline_nwgbx5TlFG1rc29pu_540.png\" data-orig-height=\"556\" data-orig-width=\"689\"/></figure><figure class=\"tmblr-full\" data-orig-height=\"681\" data-orig-width=\"757\"><img src=\"http://41.media.tumblr.com/574b024539332c60416728c84fd45a93/tumblr_inline_nwgbxboFRg1rc29pu_540.png\" data-orig-height=\"681\" data-orig-width=\"757\"/></figure>"
+            "regular-body": "<p>Hoy lanzamos la versión nueva de pilas-engine, que incluye documentación para programadores, dos nuevos ejemplos y muchas mejoras más.</p><figure class=\"tmblr-full\" data-orig-height=\"556\" data-orig-width=\"689\"><img src=\"http://65.media.tumblr.com/21f0e95d935cc8a7c2c2c689682b10d5/tumblr_inline_nwgbx5TlFG1rc29pu_540.png\" data-orig-height=\"556\" data-orig-width=\"689\"/></figure><figure class=\"tmblr-full\" data-orig-height=\"681\" data-orig-width=\"757\"><img src=\"http://67.media.tumblr.com/574b024539332c60416728c84fd45a93/tumblr_inline_nwgbxboFRg1rc29pu_540.png\" data-orig-height=\"681\" data-orig-width=\"757\"/></figure>"
         },
         {
             "id": "129953040400",
@@ -81,7 +99,7 @@ window.pilas_log = {
             "reblog-key": "JgWZJyNh",
             "slug": "publicamos-pilas-engine-12",
             "regular-title": "Publicamos pilas-engine 1.2",
-            "regular-body": "<p>Hoy publicamos la versión renovada de pilas-engine, donde incluímos un nuevo ejemplo y se corrige el notificador de errores desde el editor.</p><figure class=\"tmblr-full\" data-orig-height=\"773\" data-orig-width=\"1121\"><img src=\"http://41.media.tumblr.com/21fcab4a483569f98f83563f2aed1903/tumblr_inline_nvbak6jRz81rc29pu_540.png\" data-orig-height=\"773\" data-orig-width=\"1121\"/></figure>"
+            "regular-body": "<p>Hoy publicamos la versión renovada de pilas-engine, donde incluímos un nuevo ejemplo y se corrige el notificador de errores desde el editor.</p><figure class=\"tmblr-full\" data-orig-height=\"773\" data-orig-width=\"1121\"><img src=\"http://67.media.tumblr.com/21fcab4a483569f98f83563f2aed1903/tumblr_inline_nvbak6jRz81rc29pu_540.png\" data-orig-height=\"773\" data-orig-width=\"1121\"/></figure>"
         },
         {
             "id": "127839846710",
@@ -99,7 +117,7 @@ window.pilas_log = {
             "reblog-key": "oKwFa7tW",
             "slug": "publicamos-la-versión-11",
             "regular-title": "Publicamos la versión 1.1",
-            "regular-body": "<p>Estamos muy contentos de anunciar que tenemos una nueva versión, la versión 1.1, donde mejoramos el reporte de errores, añadimos correcciones de bugs y otras mejoras.</p><figure class=\"tmblr-full\" data-orig-height=\"774\" data-orig-width=\"1160\"><img src=\"http://40.media.tumblr.com/28b657ce2333e18caa816a8fea6a97ea/tumblr_inline_ntttq0z3021rc29pu_540.png\" data-orig-height=\"774\" data-orig-width=\"1160\"/></figure>"
+            "regular-body": "<p>Estamos muy contentos de anunciar que tenemos una nueva versión, la versión 1.1, donde mejoramos el reporte de errores, añadimos correcciones de bugs y otras mejoras.</p><figure class=\"tmblr-full\" data-orig-height=\"774\" data-orig-width=\"1160\"><img src=\"http://66.media.tumblr.com/28b657ce2333e18caa816a8fea6a97ea/tumblr_inline_ntttq0z3021rc29pu_540.png\" data-orig-height=\"774\" data-orig-width=\"1160\"/></figure>"
         },
         {
             "id": "124850639545",
@@ -135,25 +153,7 @@ window.pilas_log = {
             "reblog-key": "I8VklRiC",
             "slug": "publicamos-la-versión-09037",
             "regular-title": "Publicamos la versión 0.90.37",
-            "regular-body": "<p>En esta  versión incorporamos un arreglo que permite usar pilas-engine en windows 7</p><p><br/></p><figure class=\"tmblr-full\" data-orig-height=\"618\" data-orig-width=\"1003\"><img src=\"http://36.media.tumblr.com/bd617a2853211281adec0389632269b3/tumblr_inline_nq1vtogsT51rc29pu_540.png\" data-orig-height=\"618\" data-orig-width=\"1003\"/></figure>"
-        },
-        {
-            "id": "119628668900",
-            "url": "http://pilas-engine.tumblr.com/post/119628668900",
-            "url-with-slug": "http://pilas-engine.tumblr.com/post/119628668900/publicamos-la-web",
-            "type": "regular",
-            "date-gmt": "2015-05-22 21:27:37 GMT",
-            "date": "Fri, 22 May 2015 17:27:37",
-            "bookmarklet": 0,
-            "mobile": 0,
-            "feed-item": "",
-            "from-feed-id": 0,
-            "unix-timestamp": 1432330057,
-            "format": "html",
-            "reblog-key": "SzKvoJDN",
-            "slug": "publicamos-la-web",
-            "regular-title": "¡Publicamos la web!",
-            "regular-body": "<p>Tenemos una nueva versión de nuestro sitio web lista y publicada :)</p><figure class=\"tmblr-full\" data-orig-height=\"765\" data-orig-width=\"1236\"><img src=\"http://40.media.tumblr.com/88c7d2771b9710845eeca817f97fe9d2/tumblr_inline_norszbqLdz1rc29pu_540.png\" data-orig-height=\"765\" data-orig-width=\"1236\"/></figure>"
+            "regular-body": "<p>En esta  versión incorporamos un arreglo que permite usar pilas-engine en windows 7</p><p><br/></p><figure class=\"tmblr-full\" data-orig-height=\"618\" data-orig-width=\"1003\"><img src=\"http://65.media.tumblr.com/bd617a2853211281adec0389632269b3/tumblr_inline_nq1vtogsT51rc29pu_540.png\" data-orig-height=\"618\" data-orig-width=\"1003\"/></figure>"
         }
     ]
 };
