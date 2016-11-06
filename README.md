@@ -1,5 +1,7 @@
 # pilas-website
 
+[![Build Status](https://travis-ci.org/hugoruscitti/pilas-website.svg?branch=master)](https://travis-ci.org/hugoruscitti/pilas-website)
+
 El sitio web del proyecto http://www.pilas-engine.com.ar realizado
 con emberjs, liquid-fire y buena suerte :)
 
