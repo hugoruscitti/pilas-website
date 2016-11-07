@@ -1,7 +1,7 @@
 import Ember from 'ember';
 
 var videos = [
-  {id: 9, titulo: "Creando videojuegos con Pilas Engine", tipo: 'youtube', url: 'https://www.youtube.com/watch?v=JmjQfVBENMI'},
+  {id: 9, titulo: "Creando videojuegos con Pilas Engine", tipo: 'youtube', url: 'http://www.youtube.com/embed/JmjQfVBENMI'},
   {id: 7, titulo: 'Pilas en tv pública', tipo: 'youtube', url: 'http://www.youtube.com/embed/4KpLctdBrf8'},
   {id: 8, titulo: 'Pilas en WISIT 2014 (Argentina)', tipo: 'youtube', url: 'http://www.youtube.com/embed/l2nh3YYW29k'},
   {id: 1, titulo: "Pilas en PyCon España 2013 (Madrid, España)", tipo: 'youtube', url: 'http://www.youtube.com/embed/bjlWZjTZLmQ'},
