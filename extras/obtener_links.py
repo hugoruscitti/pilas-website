@@ -13,7 +13,12 @@ destino = 'app/routes/descargas.js'
 
 # Obtiene el ultimo numero de version.
 listado = os.listdir(directorio)
-listado.sort()
+listado = [l for l in listado if not l.startswith('.')]
+
+from re import compile, split    
+dre = compile(r'(\d+)')
+listado.sort(key=lambda l: [int(s) if s.isdigit() else s.lower() for s in split(dre, l)])
+
 version = listado[-1]
 
 archivo_origen = open(origen, 'rt')
