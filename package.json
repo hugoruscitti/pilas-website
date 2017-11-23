@@ -34,6 +34,7 @@
     "ember-img-manager": "0.0.12",
     "express": "^4.8.5",
     "glob": "^4.0.5",
+    "handlebars": "^4.0.11",
     "liquid-fire": "^0.17.1"
   },
   "dependencies": {
