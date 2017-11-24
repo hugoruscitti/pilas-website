@@ -1,5 +1,6 @@
 N=[0m
 V=[01;32m
+R=[01;31m
 
 all:
 	@echo "Comandos disponibles:"
@@ -12,6 +13,8 @@ all:
 	@echo ""
 	@echo "   $(V)preview $(N) Muestra el sitio de forma local."
 	@echo "   $(V)deploy  $(N) Sube el sitio completo a la web."
+	@echo ""
+	@echo " $(R)IMPORTANTE: SE NECESITA INICIALIZAR NVM ANTES. VER README.$(N)"
 	@echo ""
 	
 preview:

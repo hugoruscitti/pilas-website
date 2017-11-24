@@ -9,6 +9,22 @@ con emberjs, liquid-fire y buena suerte :)
 ![](./screenshots/preview.png)
 
 
+## Como hacer el deploy
+
+Actualmente la aplicación requiere una versión algo vieja de node, así
+que hay que utilizar nvm para reproducir el entorno correcto:
+
+```
+nvm install 0.12.2
+nvm use 0.12.2
+
+npm install
+npm install bower --save
+./node_modules/.bin/bower install
+ember s
+```
+
+
 ## ¿Cómo funciona la web?
 
 El sitio web de pilas está desarrollado usando el framework
