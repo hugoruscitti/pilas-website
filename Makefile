@@ -14,7 +14,10 @@ all:
 	@echo "   $(V)preview $(N) Muestra el sitio de forma local."
 	@echo "   $(V)deploy  $(N) Sube el sitio completo a la web."
 	@echo ""
-	@echo " $(R)IMPORTANTE: SE NECESITA INICIALIZAR NVM ANTES. VER README.$(N)"
+	@echo " $(R)IMPORTANTE: SE NECESITA INICIALIZAR NVM ANTES CON NODE 0.12.0."
+	@echo " $(R)TU VERSION DE NODE ES:$(N)"
+	@node -v
+	@echo " $(R)MIRÁ EL ARCHIVO README PARA MÁS DETALLES.$(N)"
 	@echo ""
 	
 preview:

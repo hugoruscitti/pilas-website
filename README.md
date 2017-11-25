@@ -24,6 +24,21 @@ npm install bower --save
 ember s
 ```
 
+Además, el script que realiza el deploy completo a la web necesita
+que tengas clonado el brach gh-pages en un directorio superior.
+
+Antes de continuar ejecutá estos comandos para asegurarte
+que el directorio existe:
+
+```
+cd ..
+git clone git@github.com:hugoruscitti/pilas ghpages__pilas-website/
+cd ghpages__pilas-website/
+git checkout gh-pages
+cd ..
+cd pilas-website
+```
+
 
 ## ¿Cómo funciona la web?
 
@@ -104,6 +119,8 @@ los que están en ``app/templates``. Observá que mientras el comando ``serve``
 está corriendo, cualquier cambio que hagas en los archivos del directorio
 ``app`` tendrían que verse reflejados en el navegador sin necesidad de
 actualizar el navegador.
+
+
 
 
 
