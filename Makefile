@@ -24,9 +24,8 @@ preview:
 	ember serve
 
 deploy:
-	echo "\n" >> README.md
 	git add .
-	git commit -m "actualizacion..."
+	git commit -m "actualizacion..." --allow-empty
 	git push
 	ember build --environment production
 	cd ../ghpages__pilas-website; git pull
