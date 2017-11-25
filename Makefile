@@ -1,6 +1,7 @@
 N=[0m
 V=[01;32m
 R=[01;31m
+VERSION=$(shell node -v)
 
 all:
 	@echo "Comandos disponibles:"
@@ -15,8 +16,7 @@ all:
 	@echo "   $(V)deploy  $(N) Sube el sitio completo a la web."
 	@echo ""
 	@echo " $(R)IMPORTANTE: SE NECESITA INICIALIZAR NVM ANTES CON NODE 0.12.0."
-	@echo " $(R)TU VERSION DE NODE ES:$(N)"
-	@node -v
+	@echo " $(R)TU VERSION DE NODE ES: $(V)$(VERSION) $(N)"
 	@echo " $(R)MIRÁ EL ARCHIVO README PARA MÁS DETALLES.$(N)"
 	@echo ""
 	
